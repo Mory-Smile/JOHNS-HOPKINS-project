@@ -1,0 +1,91 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+}
+
+/* Global End */
+
+/* Main */
+.menu {
+  text-align: center;
+  margin: 5rem;
+  font-size: 200%;
+  font-weight: 500;
+}
+
+.div1 {
+  border: 3px solid black;
+  padding: 1rem;
+  background: #ccc;
+  margin-bottom: 1.8rem;
+}
+
+.div1 .title {
+  text-align: right;
+  background: pink;
+  padding: 0.5rem 1.8rem 0rem 0rem;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+  margin-left: 50%;
+}
+
+.div1 .title2 {
+  text-align: right;
+  background: rgb(209, 23, 23);
+  padding: 0.5rem 1.8rem 0rem 0rem;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+  margin-left: 60%;
+}
+
+h3 {
+  text-align: center;
+  margin-left: 15%;
+}
+
+.div1 .title2 h3 {
+  color: white;
+}
+
+.div1 .title3 {
+  text-align: right;
+  background: rgb(215, 215, 101);
+  padding: 0.5rem 1.8rem 0rem 0rem;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+  margin-left: 50%;
+}
+
+.div1 p {
+  color: black;
+  font-weight: 500;
+}
+/* Main Ends */
+
+/* Media */
+@media (min-width: 769px) and (max-width: 991px) {
+  .s {
+    width: 207.2%;
+  }
+}
+/* Media Ends */
